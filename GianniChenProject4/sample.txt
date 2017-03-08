@@ -1,0 +1,4 @@
+This is a sample file. 
+This sample file contins 3 spelling errors
+Your prgram shoold find the spelling errors.
+good luck!

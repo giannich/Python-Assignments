@@ -1,0 +1,16 @@
+'''
+Created on May 27, 2016
+
+@author: Gianni
+'''
+
+url1 = 'https://pbs.twimg.com/profile_images/638751551457103872/KN-NzuRl.png'
+url2 = 'https://maps.googleapis.com/maps/api/staticmap?center=United+States&zoom=2&size=480x480&markers=color:red%7Clabel:O%7C34.0522342, -118.2436849&markers=color:red%7Clabel:D%7C40.7127837, -74.0059413&key=AIzaSyB8bzshI-dm0je_2GQDbO5G_w1WuFqrZ7c'
+url3 = 'https://maps.googleapis.com/maps/api/staticmap?center=United+States&zoom=2&size=480x480&format=jpg&markers=color:red%7Clabel:O%7C34.0522342, -118.2436849&markers=color:red%7Clabel:D%7C40.7127837, -74.0059413&key=AIzaSyB8bzshI-dm0je_2GQDbO5G_w1WuFqrZ7c'
+
+import urllib
+URL = "http://www.smellymonkey.com/monkeys/images/ill-monkey.gif"
+u = urllib.urlopen(URL)
+raw_data = u.read()
+u.close()
+

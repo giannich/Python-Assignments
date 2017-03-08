@@ -1,0 +1,31 @@
+'''
+Created on May 27, 2016
+
+@author: Gianni
+'''
+
+import urllib.request
+local_filename, headers = urllib.request.urlretrieve('http://python.org/')
+html = open('Python_File')
+   
+print (type(html))
+
+
+'''
+from urllib.request import FancyURLopener
+
+class MyOpener(FancyURLopener):
+    version = 'My new User-Agent'   # Set this to a string you want for your user agent
+
+url = 'https://maps.googleapis.com/maps/api/staticmap?center=United+States&zoom=2&size=480x480&markers=color:red%7Clabel:O%7C34.0522342, -118.2436849&markers=color:red%7Clabel:D%7C40.7127837, -74.0059413&key=AIzaSyB8bzshI-dm0je_2GQDbO5G_w1WuFqrZ7c'
+
+#user_agent = 'Mozilla/5.0'
+#headers = {'User-Agent':user_agent,}
+#request = Request(url,None,headers)
+#response = urlopen(request)
+
+myopener = MyOpener()
+page = myopener.open(url)
+
+print (type(page))
+'''

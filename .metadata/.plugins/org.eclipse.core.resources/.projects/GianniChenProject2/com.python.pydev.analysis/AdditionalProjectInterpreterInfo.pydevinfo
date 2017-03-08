@@ -1,0 +1,18 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\Gianni\Box Sync\UCLA Extension\Spring 2016\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\GianniChenProject2\com.python.pydev.analysis\v2_indexcache
+EnterNumber|1460216229430504000|C:\Users\Gianni\Box Sync\UCLA Extension\Spring 2016\Python\GianniChenProject2\EnterNumber.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=EnterNumber
+-- END DICTIONARY
+-- START TREE 1
+3
+get|3|getLargest!10@getSmallest!10@getAverage!10@
+inp|1|inputList!11@
+iso|1|isOrdered!10@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

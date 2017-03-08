@@ -1,0 +1,20 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\Gianni\Box Sync\UCLA Extension\Spring 2016\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\GianniChenProject4\com.python.pydev.analysis\v2_indexcache
+SpellCheck|1461556992081869000|C:\Users\Gianni\Box Sync\UCLA Extension\Spring 2016\Python\GianniChenProject4\SpellCheck.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=SpellCheck
+-- END DICTIONARY
+-- START TREE 1
+5
+che|1|checkFrequency!10@
+get|1|getInputDescriptor!10@
+mai|1|main!10@
+rea|1|readFrequency!10@
+spe|1|spellCheck!10@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

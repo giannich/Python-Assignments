@@ -1,0 +1,18 @@
+'''
+Created on May 27, 2016
+
+@author: Gianni
+'''
+
+# API Key: AIzaSyB8bzshI-dm0je_2GQDbO5G_w1WuFqrZ7c
+from TourGui import TourGui
+
+TourGui()
+
+https://maps.googleapis.com/maps/api/staticmap?
+center=Brooklyn+Bridge,New+York,NY
+&zoom=5&size=640x640
+&maptype=roadmap
+&markers=color:red%7Clabel:O%7C42.732535, -84.5555347
+&markers=color:red%7Clabel:D%7C40.7127837, -74.0059413
+&key=AIzaSyB8bzshI-dm0je_2GQDbO5G_w1WuFqrZ7c

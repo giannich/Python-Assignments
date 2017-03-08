@@ -1,0 +1,10 @@
+'''
+Created on May 27, 2016
+
+@author: Gianni
+'''
+
+# API Key: AIzaSyB8bzshI-dm0je_2GQDbO5G_w1WuFqrZ7c
+from TourGui import TourGui
+
+TourGui()

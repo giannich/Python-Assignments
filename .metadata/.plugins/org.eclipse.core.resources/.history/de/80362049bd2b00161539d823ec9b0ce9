@@ -1,0 +1,19 @@
+'''
+Created on May 27, 2016
+
+@author: Gianni
+'''
+# write-html.py
+
+import sys
+
+import PyQt4
+
+
+app = QApplication(sys.argv)
+
+browser = QWebView()
+browser.load(QUrl(sys.argv[1]))
+browser.show()
+
+app.exec_()

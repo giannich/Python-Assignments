@@ -1,0 +1,19 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\Gianni\Box Sync\UCLA Extension\Spring 2016\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\GianniChenProject3\com.python.pydev.analysis\v2_indexcache
+StockApp|1460995559403447000|C:\Users\Gianni\Box Sync\UCLA Extension\Spring 2016\Python\GianniChenProject3\StockApp.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=StockApp
+-- END DICTIONARY
+-- START TREE 1
+4
+ave|1|averageData!10@
+get|2|getDataList!10@getInputDescriptor!10@
+mai|1|main!10@
+out|1|outputAverage!10@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

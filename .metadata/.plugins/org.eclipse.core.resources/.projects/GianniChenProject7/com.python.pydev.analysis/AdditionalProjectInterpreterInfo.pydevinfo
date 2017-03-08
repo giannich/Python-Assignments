@@ -1,0 +1,32 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\Gianni\Box Sync\UCLA Extension\Spring 2016\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\GianniChenProject7\com.python.pydev.analysis\v2_indexcache
+GoogleAppOld|1463523190104380000|C:\Users\Gianni\Box Sync\UCLA Extension\Spring 2016\Python\GianniChenProject7\GoogleAppOld.py
+GoogleApp|1463523099969516000|C:\Users\Gianni\Box Sync\UCLA Extension\Spring 2016\Python\GianniChenProject7\GoogleApp.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+3=MyHTMLParser
+2=GoogleAppOld
+1=GoogleApp
+-- END DICTIONARY
+-- START TREE 1
+13
+bot|1|botFrame!11@
+bui|2|buildHTTP!10@buildHTTP!18@
+but|1|buttonFrame!11@
+goo|2|googlClear!10@googlSearch!10@
+log|2|logoLabel!11@logoImage!11@
+luc|1|lucky!11@
+mai|1|main!18@
+myh|2|MyHTMLParser!9@MyHTMLParser!17@
+pro|2|programFrame!11@promptUser!18@
+que|2|queryEntry!11@queryResults!11@
+roo|1|root!11@
+sea|1|search!11@
+top|1|topFrame!11@
+-- END TREE
+-- START TREE 2
+1
+han|2|handle_starttag!3&10@handle_starttag!3&18@
+-- END TREE

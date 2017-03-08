@@ -1,0 +1,11 @@
+'''
+Created on May 27, 2016
+
+@author: Gianni
+'''
+
+import urllib, cStringIO
+
+def open():
+    file = cStringIO.StringIO(urllib.urlopen(URL).read())
+    img = Image.open(file)

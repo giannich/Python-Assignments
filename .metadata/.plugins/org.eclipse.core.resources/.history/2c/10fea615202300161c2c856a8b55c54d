@@ -1,0 +1,80 @@
+'''
+Created on May 26, 2016
+
+@author: Gianni
+'''
+
+from tkinter import *
+
+class TourGui():
+    
+    def __init__(self):
+        
+        # Initiates GUI
+        root = Tk()
+        root.wm_title('Tour')
+        root.configure(background = 'yellow', height = 800, width = 900)
+        
+        # Top Frame
+        topFrame = Canvas(root, background = 'red', height = 100, width = 100).pack()
+        
+        # Origin
+        orLabel = Label(topFrame, text = 'Origin').pack()
+        orEntry = Entry(topFrame, width = 25, relief = SUNKEN, borderwidth = 3).pack()
+        
+        # Destination
+        desLabel = Label(topFrame, text = 'Destination').pack()
+        desEntry = Entry(topFrame, width = 25, relief = SUNKEN, borderwidth = 3).pack()
+        
+        # Mode
+        mdLabel = Label(topFrame, text = 'Mode').pack()
+        mdEntry = Entry(topFrame, width = 25, relief = SUNKEN, borderwidth = 3).pack()
+        
+        # Bottom Frame
+        botFrame = Frame(root, background = 'blue', height = 100, width = 100).pack()
+        distLabel = Label(botFrame, text = 'Distance(m)').pack()
+        distEntry = Entry(botFrame, width = 25, relief = SUNKEN, borderwidth = 3).pack()
+        distButton = Button(botFrame, relief = RAISED, width = 14, text = 'Get Distance').pack()
+        
+        # Main Loop
+        root.mainloop()
+        
+TourGui()
+
+'''
+class TourGui():
+    
+    def __init__(self):
+        
+        # Initiates GUI
+        root = Tk()
+        root.wm_title('Tour')
+        root.configure(background = 'yellow', height = 800, width = 900)
+        
+        # Top Frame
+        topFrame = Frame(root, background = 'red', height = 100, width = 100).pack()
+        
+        # Origin
+        orFrame = Frame(topFrame).pack()
+        orLabel = Label(orFrame, text = 'Origin').pack()
+        orEntry = Entry(orFrame, width = 25, relief = SUNKEN, borderwidth = 3).pack()
+        
+        # Destination
+        desFrame = Frame(topFrame).pack()
+        desLabel = Label(desFrame, text = 'Destination').pack()
+        desEntry = Entry(desFrame, width = 25, relief = SUNKEN, borderwidth = 3).pack()
+        
+        # Mode
+        mdFrame = Frame(topFrame).pack()
+        mdLabel = Label(mdFrame, text = 'Mode').pack()
+        mdEntry = Entry(mdFrame, width = 25, relief = SUNKEN, borderwidth = 3).pack()
+        
+        # Bottom Frame
+        botFrame = Frame(root, background = 'blue', height = 100, width = 100).pack()
+        distLabel = Label(botFrame, text = 'Distance(m)').pack()
+        distEntry = Entry(botFrame, width = 25, relief = SUNKEN, borderwidth = 3).pack()
+        distButton = Button(botFrame, relief = RAISED, width = 14, text = 'Get Distance').pack()
+        
+        # Main Loop
+        root.mainloop()
+'''

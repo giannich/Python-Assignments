@@ -1,0 +1,43 @@
+'''
+Created on May 26, 2016
+
+@author: Gianni
+'''
+
+from tkinter import *
+
+class TourGui():
+    
+    def __init__(self):
+        
+        # Initiates GUI
+        root = Tk()
+        root.wm_title('Tour')
+        root.configure(background = 'white')
+        
+        # Top Frame
+        topFrame = Frame(root)
+        
+        # Origin
+        orFrame = Frame(topFrame)
+        orLabel = Label(orFrame, Text = 'Origin').pack(side = TOP)
+        orEntry = Entry(orFrame, width = 41, relief = SUNKEN, borderwidth = 3).pack(side = BOTTOM)
+        
+        # Destination
+        desFrame = Frame(topFrame)
+        desLabel = Label(desFrame, Text = 'Destination').pack(side = TOP)
+        desEntry = Entry(desFrame, width = 41, relief = SUNKEN, borderwidth = 3).pack(side = BOTTOM)
+        
+        # Mode
+        mdFrame = Frame(topFrame)
+        mdLabel = Label(mdFrame, Text = 'Mode').pack(side = TOP)
+        mdEntry = Entry(mdFrame, width = 41, relief = SUNKEN, borderwidth = 3).pack(side = BOTTOM)
+        
+        # Bottom Frame
+        botFrame = Frame(root)
+        distLabel = Label(botFrame, Text = 'Distance(m)').pack()
+        distEntry = Entry(botFrame, width = 41, relief = SUNKEN, borderwidth = 3).pack()
+        distButton = Button(botFrame, relief = RAISED, padx = 10, pady = 5, width = 14, text = 'Get Distance').pack()
+        
+        
+TourGui()

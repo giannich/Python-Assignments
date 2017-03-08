@@ -1,0 +1,14 @@
+'''
+Created on May 27, 2016
+
+@author: Gianni
+'''
+
+from PIL import Image
+import requests
+from io import BytesIO
+
+url = 'https://maps.googleapis.com/maps/api/staticmap?center=United+States&zoom=2&size=320x320&markers=color:red%7Clabel:O%7C34.0522342, -118.2436849&markers=color:red%7Clabel:D%7C40.7127837, -74.0059413&key=AIzaSyB8bzshI-dm0je_2GQDbO5G_w1WuFqrZ7c'
+
+response = requests.get(url)
+img = Image.open(BytesIO(response.content))

@@ -1,0 +1,15 @@
+'''
+Created on Jun 5, 2016
+
+@author: Gianni
+'''
+
+def rec(n):
+    
+    if n > 100:
+        return (n - 10)
+    else:
+        return (rec(rec(n+11)))
+    
+    
+print (rec(1872681))
